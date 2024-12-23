@@ -1,0 +1,12 @@
+expname = srn_cars
+ckptdir = /data2/nerf_data
+ckpt_path = /data2/nerf_data/srn_cars_500000.pth
+data_path = /data2/nerf_data/cars_test
+outdir = /data2/nerf_data/srn_cars_result
+img_hw = [128, 128]
+chunk_size = 2048 # Increase this if you have large GPU memory
+mlp_block_num = 6
+white_bkgd = True
+im_feat_dim = 512
+# skip = 1
+data_range = [0, 704] # Change this to render more data
